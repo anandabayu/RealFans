@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card mb-3">
     <form action="{{ route('change-avatar') }}"
           method="post"
           enctype="multipart/form-data">

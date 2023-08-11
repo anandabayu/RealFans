@@ -1,4 +1,4 @@
-<div class="card mt-3">
+<div class="card mb-3">
     <form action="{{ route('change-info') }}"
           method="post">
         @csrf

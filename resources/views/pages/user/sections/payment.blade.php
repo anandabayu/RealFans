@@ -3,15 +3,15 @@
 </div>
 
 <div class="alert alert-info">
-    DEMO Data:<br/>
-    Name: Test<br/>
-    Number: 4242 4242 4242 4242<br/>
-    CSV: 123<br/>
-    Expiration Month: 12<br/>
-    Expiration Year: 2028
+    DEMO Data:<br/><br/>
+    Name: <span class="text-dark fw-bold">Test</span><br/>
+    Number: <span class="text-dark fw-bold">4242 4242 4242 4242</span><br/>
+    CSV: <span class="text-dark fw-bold">123</span><br/>
+    Expiration Month: <span class="text-dark fw-bold">12</span><br/>
+    Expiration Year: <span class="text-dark fw-bold">2028</span>
 </div>
 
-<div class="card">
+<div class="card mb-3">
     <form role="form"
           action="{{ route('payment', $user->username) }}"
           method="post"

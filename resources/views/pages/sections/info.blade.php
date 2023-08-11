@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card mb-3">
     <a href="{{ route('user-info', Auth::user()->username ) }}" class="mx-auto">
     <img src="{{ asset('storage/images/'.Auth::user()->avatar) }}"
          class="card-img-top rounded-circle mt-2"
